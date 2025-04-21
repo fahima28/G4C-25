@@ -30,11 +30,11 @@ ul li {
 }
 
 .image-section img {
-    width: 250px; /* Increased size */
-    height: 250px;
-    object-fit: cover;
-    border-radius: 50%;
-    transform: translateX(20px); /* Moves it slightly to the right */
+    width: 100%; /* Ensure the image fully fills its container */
+    height: 100%;
+    object-fit: cover; /* Make the image cover the entire area */
+    border-radius: 50%; /* Maintain the circular shape */
+    display: block;
 }
 
 /* Social Links */
@@ -159,11 +159,11 @@ ul li {
     }
 
     .image-section img {
-        width: 200px; /* Adjusted for smaller screens */
-        height: 200px;
+        width: 100%; /* Ensure full coverage */
+        height: 100%;
         object-fit: cover;
         border-radius: 50%;
-        transform: translateX(15px); /* Slight adjustment */
+        display: block;
     }
 
     .icon-link {
